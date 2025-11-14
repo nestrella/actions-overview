@@ -2,7 +2,7 @@ name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out Github Actions
 on: [push]
 env: 
-DAY_OF_WEEK: Friday
+  DAY_OF_WEEK: Friday
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
